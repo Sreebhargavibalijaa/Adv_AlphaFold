@@ -1,0 +1,6 @@
+target,model,depth,seconds,hardware,timing_scope
+T1184,AlphaFold2,16,51.8,CPU (run log),logged prediction; not end-to-end
+T1184,AlphaFold2,32,57.3,CPU (run log),logged prediction; not end-to-end
+T1184,AlphaFold2,64,210.2,CPU (run log),logged prediction; not end-to-end
+T1184,AlphaFold2,128,242.4,CPU (run log),logged prediction; not end-to-end
+T1184,AlphaFold2,256,208.0,CPU (run log),logged prediction; not end-to-end

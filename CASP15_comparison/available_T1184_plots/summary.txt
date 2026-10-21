@@ -1,0 +1,33 @@
+MSA limit experiment: AlphaFold2 / ColabFold
+Source: /Users/sreebhargavibalija/Desktop/8170/esmfold/esm/esm/esmfold/v1/msa_depth_results
+
+These are AlphaFold2 predictions, despite their location under the ESMFold tree.
+The separate alphafold/msa_depth_results folder contains prepared inputs only.
+No AlphaFold-versus-ESMFold comparison or experimental accuracy claim is possible.
+
+X axis: configured max_seq, NOT measured effective MSA depth.
+max_extra_seq also changes; effects cannot be attributed to max_seq alone.
+All input alignments identical: True.
+Input availability (records include query and duplicates):
+  max_seq=16, max_extra_seq=32: 64 records, 60 unique aligned sequences
+  max_seq=32, max_extra_seq=64: 64 records, 60 unique aligned sequences
+  max_seq=64, max_extra_seq=128: 64 records, 60 unique aligned sequences
+  max_seq=128, max_extra_seq=256: 64 records, 60 unique aligned sequences
+  max_seq=256, max_extra_seq=512: 64 records, 60 unique aligned sequences
+
+Best observed value per metric (ties use stored score precision):
+  Mean pLDDT: 81.838655; max_seq = 64, 128, 256
+  Predicted TM score (pTM): 0.740000; max_seq = 16, 32, 64, 128, 256
+  Mean predicted aligned error: 10.930794; max_seq = 32
+  Residues with pLDDT >= 70: 75.438596; max_seq = 64, 128, 256
+  Residues with pLDDT >= 90: 64.327485; max_seq = 64, 128, 256
+  Inference runtime: 51.800000; max_seq = 16
+
+pLDDT and pTM are confidence estimates, not ground-truth accuracy metrics.
+Mean PAE averages the full matrix, including the diagonal.
+Runtime is the log's 'took ...s' prediction time, not end-to-end wall time.
+One rank-1 prediction per setting; no replicate uncertainty estimates.
+Small numerical differences do not establish statistically significant improvement.
+Limits exceeding available unique sequences do not add new sequence information.
+
+Reproduce: python plot_msa_depth_metrics.py --results PATH --output PATH

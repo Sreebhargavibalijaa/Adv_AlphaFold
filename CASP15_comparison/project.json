@@ -1,0 +1,23 @@
+{
+  "T1184": {
+    "alphafold_results": "../esm/esm/esmfold/v1/msa_depth_results",
+    "esmfold_pdb": "../sequence_esmfold_prediction.pdb",
+    "esmfold_confidence_scale": 100,
+    "esmfold_scale_note": "User-approved normalized confidence assumption; scale is not documented in source PDB",
+    "reference_pdb": "inputs/T1184/reference.pdb"
+  },
+  "T1187": {
+    "alphafold_results": "inputs/T1187/alphafold",
+    "esmfold_pdb": "inputs/T1187/esmfold.pdb",
+    "esmfold_confidence_scale": 1,
+    "esmfold_scale_note": "Standard local ESMFold export uses 0-100; verify for uploaded results",
+    "reference_pdb": "inputs/T1187/reference.pdb"
+  },
+  "T1181": {
+    "alphafold_results": "inputs/T1181/alphafold",
+    "esmfold_pdb": "inputs/T1181/esmfold.pdb",
+    "esmfold_confidence_scale": 1,
+    "esmfold_scale_note": "Standard local ESMFold export uses 0-100; verify for uploaded results",
+    "reference_pdb": "inputs/T1181/reference.pdb"
+  }
+}

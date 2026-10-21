@@ -1,0 +1,4 @@
+target,residues,alphafold_runs,esmfold_available,reference_available,esmfold_scale,scale_note,status
+T1184,171,5,True,False,100,User-approved normalized confidence assumption; scale is not documented in source PDB,Missing experimental reference; TMscore executable unavailable; Missing sequence perplexity; Missing ESMFold runtime
+T1187,166,0,False,False,1,Standard local ESMFold export uses 0-100; verify for uploaded results,Missing AlphaFold2 predictions; Missing ESMFold prediction; Missing experimental reference; TMscore executable unavailable; Missing sequence perplexity; Missing ESMFold runtime
+T1181,688,0,False,False,1,Standard local ESMFold export uses 0-100; verify for uploaded results,Missing AlphaFold2 predictions; Missing ESMFold prediction; Missing experimental reference; TMscore executable unavailable; Missing sequence perplexity; Missing ESMFold runtime
