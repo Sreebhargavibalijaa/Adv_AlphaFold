@@ -1,0 +1,31 @@
+AlphaFold2 versus ESMFold confidence comparison
+Identical query sequences verified: 171 residues.
+ESMFold source: /Users/sreebhargavibalija/Desktop/8170/esmfold/sequence_esmfold_prediction.pdb
+ESMFold CA B-factor multiplied by 100.
+Scale is a user-approved assumption; it is not documented in the PDB.
+CA-atom confidence gives one score per residue, not the ESMFold all-atom mean.
+ESMFold uses no MSA: the horizontal line is one baseline, not repeated depth runs.
+AlphaFold x-axis is configured max_seq, not actual/effective MSA depth.
+All supplied AlphaFold inputs have 64 records / 60 unique aligned sequences.
+max_extra_seq varies too; this is not an isolated max_seq experiment.
+ESMFold pTM, PAE, and runtime are not available in the PDB and are not plotted.
+Confidence does not establish accuracy or statistical significance.
+
+Mean pLDDT: ESMFold baseline = 35.614035
+  AlphaFold2 max_seq=16: 80.531871
+  AlphaFold2 max_seq=32: 81.823743
+  AlphaFold2 max_seq=64: 81.838655
+  AlphaFold2 max_seq=128: 81.838655
+  AlphaFold2 max_seq=256: 81.838655
+Residues with pLDDT >= 70: ESMFold baseline = 0.000000
+  AlphaFold2 max_seq=16: 73.684211
+  AlphaFold2 max_seq=32: 74.269006
+  AlphaFold2 max_seq=64: 75.438596
+  AlphaFold2 max_seq=128: 75.438596
+  AlphaFold2 max_seq=256: 75.438596
+Residues with pLDDT >= 90: ESMFold baseline = 0.000000
+  AlphaFold2 max_seq=16: 57.894737
+  AlphaFold2 max_seq=32: 61.988304
+  AlphaFold2 max_seq=64: 64.327485
+  AlphaFold2 max_seq=128: 64.327485
+  AlphaFold2 max_seq=256: 64.327485

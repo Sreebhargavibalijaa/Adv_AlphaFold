@@ -1,0 +1,7 @@
+model,configured_max_seq,mean_plddt,plddt_ge_70_percent,plddt_ge_90_percent,confidence_scale,source
+AlphaFold2,16,80.53187134502924,73.6842105263158,57.89473684210526,1,/Users/sreebhargavibalija/Desktop/8170/esmfold/esm/esm/esmfold/v1/msa_depth_results/depth_16/target_scores_rank_001_alphafold2_ptm_model_1_seed_000.json
+AlphaFold2,32,81.82374269005848,74.26900584795321,61.98830409356725,1,/Users/sreebhargavibalija/Desktop/8170/esmfold/esm/esm/esmfold/v1/msa_depth_results/depth_32/target_scores_rank_001_alphafold2_ptm_model_1_seed_000.json
+AlphaFold2,64,81.83865497076023,75.43859649122807,64.32748538011695,1,/Users/sreebhargavibalija/Desktop/8170/esmfold/esm/esm/esmfold/v1/msa_depth_results/depth_64/target_scores_rank_001_alphafold2_ptm_model_1_seed_000.json
+AlphaFold2,128,81.83865497076023,75.43859649122807,64.32748538011695,1,/Users/sreebhargavibalija/Desktop/8170/esmfold/esm/esm/esmfold/v1/msa_depth_results/depth_128/target_scores_rank_001_alphafold2_ptm_model_1_seed_000.json
+AlphaFold2,256,81.83865497076023,75.43859649122807,64.32748538011695,1,/Users/sreebhargavibalija/Desktop/8170/esmfold/esm/esm/esmfold/v1/msa_depth_results/depth_256/target_scores_rank_001_alphafold2_ptm_model_1_seed_000.json
+ESMFold,,35.6140350877193,0.0,0.0,100.0,/Users/sreebhargavibalija/Desktop/8170/esmfold/sequence_esmfold_prediction.pdb
