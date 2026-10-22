@@ -1,0 +1,2 @@
+[console_scripts]
+run_alphafold = run_alphafold:main

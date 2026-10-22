@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/Users/sreebhargavibalija/miniforge3/envs/colabfold/bin/colabfold_batch",
+    "/Users/sreebhargavibalija/Desktop/8170/esmfold/alphafold/msa_depth_benchmark/depth_64/target.a3m",
+    "/Users/sreebhargavibalija/Desktop/8170/esmfold/alphafold/msa_depth_benchmark/depth_64",
+    "--model-type",
+    "alphafold2_ptm",
+    "--num-models",
+    "1",
+    "--model-order",
+    "1",
+    "--num-seeds",
+    "1",
+    "--random-seed",
+    "0",
+    "--num-recycle",
+    "3",
+    "--max-msa",
+    "64:1"
+  ],
+  "returncode": 0,
+  "wall_seconds": 230.20360349997645
+}

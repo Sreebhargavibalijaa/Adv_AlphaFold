@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+run_alphafold.py
+alphafold.egg-info/PKG-INFO
+alphafold.egg-info/SOURCES.txt
+alphafold.egg-info/dependency_links.txt
+alphafold.egg-info/entry_points.txt
+alphafold.egg-info/requires.txt
+alphafold.egg-info/top_level.txt

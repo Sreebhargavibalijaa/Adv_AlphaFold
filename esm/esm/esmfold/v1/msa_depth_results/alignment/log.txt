@@ -1,0 +1,6 @@
+2026-10-19 16:55:32,056 Running colabfold 1.6.3
+2026-10-19 16:55:32,411 WARNING: no GPU detected, will be using CPU
+2026-10-19 16:55:32,981 Found 4 citations for tools or databases
+2026-10-19 16:55:32,981 Query 1/1: target (length 171)
+2026-10-19 16:55:35,486 Saved msa_depth_results/alignment/target.pickle
+2026-10-19 16:55:36,046 Done

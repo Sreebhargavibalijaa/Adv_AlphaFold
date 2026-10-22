@@ -1,0 +1,6 @@
+requested_depth,input_depth,available_unique_sequences,status,mean_plddt,ptm,mean_pae_angstrom,plddt_ge_70_percent,plddt_ge_90_percent,prediction_seconds,wall_seconds
+16,16,60,prepared,,,,,,,
+32,32,60,prepared,,,,,,,
+64,,60,insufficient_sequences,,,,,,,
+128,,60,insufficient_sequences,,,,,,,
+256,,60,insufficient_sequences,,,,,,,
